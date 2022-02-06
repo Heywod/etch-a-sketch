@@ -1,0 +1,16 @@
+#container {
+  display: grid;
+  grid-template-columns: repeat(64, 1fr);
+  width: 640px;
+  height: 640px;
+}
+
+.block {
+  background-color: #fff;
+  outline: black 1px solid;
+}
+
+.colorBlock {
+  background-color: black;
+  outline: black 0.5px solid;
+}

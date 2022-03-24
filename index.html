@@ -8,9 +8,21 @@
     <title>Etch-A-Sketch</title>
   </head>
   <body>
-    <button id="btnClear">Clear</button>
-    <div id="container"></div>
-
+    <div class="container">
+      <div class="game-grid">
+        <div id="grid"></div>
+      </div>
+      <div class="controls">
+        <div class="btn">
+          <button id="btn-clear">Clear</button>
+        </div>
+        <div class="range">
+          <span id="size"></span>
+          <input type="range" id="grid-range" name="size" value="40" step="1" min="16" max="64" />
+          <label for="size">Grid Size</label>
+        </div>
+      </div>
+    </div>
     <script src="app.js"></script>
   </body>
 </html>

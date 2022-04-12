@@ -1,3 +1,11 @@
-# etch-a-sketch
-Web based etch-a-sketch project
-This is the base model for an etch-a-sketch game. This will be revisited for styling at a later date.
+# Etch-A-Sketch
+
+Web based drawing app
+
+## Description
+
+Display uses of HTML5, CSS3, and Javascript.
+
+## Information
+
+Building this Etch-A-Scetch app helped solidify some of the basics of vanilla Javascript, plus its fun to play with.
